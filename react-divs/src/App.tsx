@@ -40,6 +40,12 @@ function App() {
         flexDirection: "row",
       }}
     >
+        <h1 style={{
+          position: "absolute",
+          zIndex: 2,
+          color: "black",
+          textAlign: "center"
+        }}>REACT DIVS</h1>
       {colors.map((color, index) => (
         <div
           key={[color, index].join("-")}
@@ -68,6 +74,9 @@ export default App;
 //         flexDirection: "row",
 //       }}
 //     >
+        <h1 style={{
+          position: "absolute"
+        }}></h1>
 //       {colors.map((color, index) => (
 //         <div
 //           key={[color, index].join("-")}
